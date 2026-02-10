@@ -74,8 +74,7 @@ void unbindShader()
 
 static int getUniformLocation(const char* name, const Shader shader)
 {
-    // TODO: Find a way to cache this. The video you watched used an unordered map
-    // TODO: and searched through it before making this call. Perhaps a dynamic
+    // TODO: Find a way to cache this. Perhaps a dynamic
     // TODO: array of some sorts.
     return glGetUniformLocation(shader.mProgramId, name);
 }
