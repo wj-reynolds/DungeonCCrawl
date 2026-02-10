@@ -1,0 +1,4 @@
+up=w,i
+down=s,k
+left=a,j
+right=d,l
